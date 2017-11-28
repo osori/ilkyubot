@@ -5,7 +5,7 @@ from collections import OrderedDict
 class Places(object):
 	global GOOGLE_API_KEY, NEARBY_PLACES_URL, GEOCODE_URL, PLACE_DETAILS_URL, SEARCH_RADIUS, LANGUAGE
 	
-	GOOGLE_API_KEY = 'AIzaSyCJQ2LfhnG44np1BSxJnWZoOaLLWaOyrIA'
+	GOOGLE_API_KEY = 'REPLACE IT WITH YOUR OWN GOOGLE API KEY'
 	NEARBY_PLACES_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
 	GEOCODE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 	PLACE_DETAILS_URL = "https://maps.googleapis.com/maps/api/place/details/json"
